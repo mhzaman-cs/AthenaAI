@@ -22,105 +22,145 @@ interface Message {
 
 const dummyData: Message[] = [
   {
-    userId: "user1",
-    message: {
-      type: "text",
-      data: {
-        content: "Hello!",
-        name: "Alice",
-      },
-    },
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Hi there! I'm preparing for my data structures and algorithms exam. Mind if I ask you a few questions?",
+        "name": "Student"
+      }
+    }
   },
   {
-    userId: "user2",
-    message: {
-      type: "bot",
-      data: {
-        content: "Hi Alice!",
-        name: "Bob",
-      },
-    },
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "Of course not! Fire away with your questions.",
+        "name": "Athena"
+      }
+    }
   },
   {
-    userId: "user1",
-    message: {
-      type: "text",
-      data: {
-        content: "How are you?",
-        name: "Alice",
-      },
-    },
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Alright, first one: what's the time complexity of finding an element in a sorted array using binary search?",
+        "name": "Student"
+      }
+    }
   },
   {
-    userId: "user2",
-    message: {
-      type: "bot",
-      data: {
-        content: "I'm good, thanks!",
-        name: "Bob",
-      },
-    },
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "That would be O(log n), where n is the number of elements in the array.",
+        "name": "Athena"
+      }
+    }
   },
   {
-    userId: "user1",
-    message: {
-      type: "text",
-      data: {
-        content: "How are you?",
-        name: "Alice",
-      },
-    },
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Great, got it! Now, which sorting algorithm has a worst-case time complexity of O(n^2)?",
+        "name": "Student"
+      }
+    }
   },
   {
-    userId: "user2",
-    message: {
-      type: "bot",
-      data: {
-        content: "I'm good, thanks!",
-        name: "Bob",
-      },
-    },
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "That would be quicksort.",
+        "name": "Athena"
+      }
+    }
   },
   {
-    userId: "user1",
-    message: {
-      type: "text",
-      data: {
-        content: "How are you?",
-        name: "Alice",
-      },
-    },
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Hmm, interesting. And what about the primary use of Dijkstra's algorithm?",
+        "name": "Student"
+      }
+    }
   },
   {
-    userId: "user2",
-    message: {
-      type: "bot",
-      data: {
-        content: "I'm good, thanks!",
-        name: "Bob",
-      },
-    },
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "Dijkstra's algorithm is primarily used for finding the shortest path in a weighted graph.",
+        "name": "Athena"
+      }
+    }
   },
   {
-    userId: "user1",
-    message: {
-      type: "text",
-      data: {
-        content: "How are you?",
-        name: "Alice",
-      },
-    },
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Excellent! Next up, what data structure uses LIFO (Last In, First Out) ordering?",
+        "name": "Student"
+      }
+    }
   },
   {
-    userId: "user2",
-    message: {
-      type: "bot",
-      data: {
-        content: "I'm good, thanks!",
-        name: "Bob",
-      },
-    },
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "That would be a stack.",
+        "name": "Athena"
+      }
+    }
   },
+  {
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Okay, last one for now: what's the main disadvantage of using bubble sort?",
+        "name": "Student"
+      }
+    }
+  },
+  {
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "The main disadvantage of bubble sort is its time complexity, which can be O(n^2) in the worst-case scenario.",
+        "name": "Athena"
+      }
+    }
+  },
+  {
+    "userId": "Person",
+    "message": {
+      "type": "Human",
+      "data": {
+        "content": "Thanks a bunch! You've been really helpful.",
+        "name": "Student"
+      }
+    }
+  },
+  {
+    "userId": "Chatbot",
+    "message": {
+      "type": "bot",
+      "data": {
+        "content": "Anytime! If you have more questions, feel free to ask. Good luck with your exam prep!",
+        "name": "Athena"
+      }
+    }
+  }
 ];
 
 const ChatBot: React.FC = () => {

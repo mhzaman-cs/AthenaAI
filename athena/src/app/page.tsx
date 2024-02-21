@@ -3,6 +3,7 @@ import { Button } from "@/(components)/ui/button";
 import { Input } from "@/(components)/ui/input";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Link from 'next/link';
 
 // Thanks, Next.js, for making me do this lol.
 export const dynamic = "force-dynamic";
@@ -55,6 +56,9 @@ export default function Home() {
           <span className="bg-clip-text text-transparent bg-gradient-to-tr from-purple-600 to-fuchsia-500">
             We'll Do The Rest.
           </span>
+          <Link href="/quiz" >
+            Or Take our <span className="bg-clip-text text-transparent bg-gradient-to-tr from-purple-600 to-fuchsia-500">Quiz</span>
+          </Link>
         </h2>
 
         <div className="flex justify-between items-center w-full max-w-lg mx-auto mt-8 translate-x-12">
@@ -74,6 +78,6 @@ export default function Home() {
           </Button>
         </div>
       </section>
-    </main>
+    </main >
   );
 }
