@@ -12,6 +12,9 @@ With Athena, people can have one AI-powered store for all their content, allowin
 
 Our aim is to enhance productivity and empower our users to explore, engage, and learn in a way that truly values their time.
 
+## Demo
+[<img src="Athena.png" width="100%"/>](https://github.com/mhzaman-cs/Forex)
+
 ## What it does
 
 Our project consists of two components.
@@ -26,6 +29,8 @@ Minerva allows you to search for specific topics within your documents. You can 
 In Athena, we empower our users to manage and query all forms of content. You have the flexibility to choose how you organize and interact with your material. Whether you prefer grouping content by course and using focused queries or rewatching lectures with a custom-trained chatbot at your fingertips, our application Athena has got you covered.
 
 We allow users to either perform multimodal vectorized searches across all their documents, enhancing information accessibility, or explore a single document with more depth and nuance using a custom-trained LLm model. With Athena, the power of information is in your hands, and the choice is yours to make.
+
+
 
 ## Tech Stack
 
