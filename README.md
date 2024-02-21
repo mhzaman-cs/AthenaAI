@@ -13,7 +13,7 @@ With Athena, people can have one AI-powered store for all their content, allowin
 Our aim is to enhance productivity and empower our users to explore, engage, and learn in a way that truly values their time.
 
 ## Demo
-[<img src="Athena.png" width="100%"/>](https://github.com/mhzaman-cs/Forex)
+[<img src="Athena.png" width="100%"/>](https://github.com/mhzaman-cs/AthenaAI/)
 
 ## What it does
 
